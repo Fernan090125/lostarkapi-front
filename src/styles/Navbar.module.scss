@@ -1,0 +1,47 @@
+.navbar{
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    color: white;
+
+    .subHeader{
+        background-color: black;
+        height: 25px;
+    }
+
+    .subHeader_main{
+        background-color: #111111;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 0 30px 0 30px;
+
+        justify-content: space-between;
+    }
+
+    .img{
+        height: 40px;
+        width: 150px;
+    }
+
+    .navbar_links{
+        width: 60%;
+        
+        ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+
+            li{
+              a{
+                text-decoration: none;
+                color: white;
+              }  
+            }
+        }
+    }
+
+   
+}
